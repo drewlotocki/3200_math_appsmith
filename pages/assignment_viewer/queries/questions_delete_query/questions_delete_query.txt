@@ -1,0 +1,5 @@
+	{{
+	{
+		'assignedQuestionId': question_select_delete.value
+	}
+  }}

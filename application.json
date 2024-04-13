@@ -1,0 +1,50 @@
+{
+  "pages": [
+    {
+      "id": "admin_page",
+      "isDefault": false
+    },
+    {
+      "id": "question_page",
+      "isDefault": false
+    },
+    {
+      "id": "home_page",
+      "isDefault": true
+    },
+    {
+      "id": "user_page",
+      "isDefault": false
+    },
+    {
+      "id": "leaderboard_page",
+      "isDefault": false
+    },
+    {
+      "id": "assignment_page",
+      "isDefault": false
+    },
+    {
+      "id": "assignment_viewer",
+      "isDefault": false
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "clonedFromApplicationId": "6617e9494418b75e41bd5819",
+  "unpublishedApplicationDetail": {
+    "appPositioning": {
+      "type": "FIXED"
+    }
+  },
+  "color": "#E3DEFF",
+  "icon": "bird",
+  "unpublishedCustomJSLibs": [],
+  "publishedCustomJSLibs": [],
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "isManualUpdate": false,
+  "deleted": false
+}
