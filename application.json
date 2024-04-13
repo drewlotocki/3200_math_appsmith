@@ -27,6 +27,10 @@
     {
       "id": "assignment_viewer",
       "isDefault": false
+    },
+    {
+      "id": "Admin Verification Page",
+      "isDefault": false
     }
   ],
   "viewMode": false,
