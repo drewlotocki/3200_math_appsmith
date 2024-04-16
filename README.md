@@ -11,7 +11,8 @@ From the home page, a user can navigate to a section that fits their persona so 
 3. Upload the repo under create new then import
 4. Go to the website and explore
 
-Group Members:
+
+##Group Members:
 
 1. Cole Saucier
 2. Siyu(Cindy) Hou
