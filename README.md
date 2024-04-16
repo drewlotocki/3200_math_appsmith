@@ -12,7 +12,7 @@ From the home page, a user can navigate to a section that fits their persona so 
 4. Go to the website and explore
 
 
-##Group Members:
+## Group Members:
 
 1. Cole Saucier
 2. Siyu(Cindy) Hou
