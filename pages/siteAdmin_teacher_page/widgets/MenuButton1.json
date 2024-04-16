@@ -16,8 +16,8 @@
     },
     "displayName": "Menu button",
     "iconSVG": "/static/media/icon.631848e88e7a3db05f6015f22835e81b.svg",
-    "topRow": 10,
-    "bottomRow": 14,
+    "topRow": 13,
+    "bottomRow": 17,
     "parentRowSpace": 10,
     "type": "MENU_BUTTON_WIDGET",
     "hideCard": false,
@@ -36,7 +36,7 @@
     "isDeprecated": false,
     "rightColumn": 64,
     "menuVariant": "PRIMARY",
-    "widgetId": "rzy8f6n49r",
+    "widgetId": "fmluv3ixfw",
     "menuItems": {
         "menuItem1": {
             "onClick": "{{navigateTo('admin_page', {}, 'SAME_WINDOW');}}",

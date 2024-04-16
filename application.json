@@ -1,6 +1,10 @@
 {
   "pages": [
     {
+      "id": "siteAdmin_teacher_page",
+      "isDefault": false
+    },
+    {
       "id": "siteAdmin_parent_page",
       "isDefault": false
     },

@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "functions",
+    "pageId": "siteAdmin_teacher_page",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "siteAdmin_teacher_page_functions",
+  "deleted": false,
+  "gitSyncId": "661d40e1658fd51be50cbd8b_661e13c5fd064b75c1d6c080"
+}
