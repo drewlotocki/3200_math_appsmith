@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "admin_page",
-    "slug": "admin-page",
+    "name": "admin_verification_page",
+    "slug": "admin-verification-page",
     "layouts": [
       {
         "viewMode": false,
@@ -13,14 +13,14 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 540,
+          "bottomRow": 380,
           "containerStyle": "none",
-          "snapRows": 61,
+          "snapRows": 65,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 89,
-          "minHeight": 630,
+          "minHeight": 670,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -28,7 +28,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "admin_page",
+        "id": "admin_verification_page",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -39,5 +39,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "661d40e1658fd51be50cbd8b_661df654658fd51be50cbdd7"
+  "gitSyncId": "661ac4a610708f7cae9d3574_661ac71c10708f7cae9d358f"
 }

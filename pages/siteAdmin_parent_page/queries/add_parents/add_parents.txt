@@ -1,0 +1,7 @@
+{{{
+  // "key": "value",
+  email: Add_parent_email.text,
+  firstName: Add_Parent_fn.text,
+  lastName: Add_Parent_ln.text,
+  studentEmail: Add_Parent_se.selectedOptionLabel
+}}}

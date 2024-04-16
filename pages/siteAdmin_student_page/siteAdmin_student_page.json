@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Admin Verification Page",
-    "slug": "admin-verification-page",
+    "name": "siteAdmin_student_page",
+    "slug": "siteadmin-student-page",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 380,
+          "bottomRow": 1150,
           "containerStyle": "none",
           "snapRows": 65,
           "parentRowSpace": 1,
@@ -25,10 +25,21 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "siteAdmin_student_page_get_students",
+              "name": "get_students",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Admin Verification Page",
+        "id": "siteAdmin_student_page",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -39,5 +50,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "661ac4a610708f7cae9d3574_661ac71c10708f7cae9d358f"
+  "gitSyncId": "661d40e1658fd51be50cbd8b_661df5a9658fd51be50cbdc5"
 }

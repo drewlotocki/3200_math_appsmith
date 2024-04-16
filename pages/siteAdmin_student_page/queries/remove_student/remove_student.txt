@@ -1,0 +1,6 @@
+{{
+{
+ //"key": "value",
+	email: Remove_Student.formData.email
+}
+}}
