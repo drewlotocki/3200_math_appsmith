@@ -10,7 +10,7 @@
         "label"
     ],
     "topRow": 2,
-    "bottomRow": 18,
+    "bottomRow": 10,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -31,7 +31,7 @@
     "text": "Leaderboard",
     "key": "1m2fgvwji5",
     "isDeprecated": false,
-    "rightColumn": 20,
+    "rightColumn": 37,
     "backgroundColor": "#b91c1c",
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
@@ -54,7 +54,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 6,
+    "originalBottomRow": 18,
     "fontSize": "3.75rem",
     "minDynamicHeight": 4
 }
