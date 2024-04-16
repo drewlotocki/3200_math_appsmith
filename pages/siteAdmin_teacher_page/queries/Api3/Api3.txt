@@ -1,0 +1,7 @@
+{{{
+  // "key": "value",
+  email: Add_teacher_email.text,
+	firstName:Add_teacher_fn.text,
+	lastName:Add_teacher_ln.text,
+	phoneNumber:add_teacher_cid.text
+}}}

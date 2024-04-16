@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Add a Student by filling the fields below",
+    "text": "Add a teacher by filling the fields below",
     "key": "46g6jeqwc8",
     "isDeprecated": false,
     "rightColumn": 42,
@@ -50,11 +50,11 @@
     "isLoading": false,
     "mobileTopRow": 64,
     "responsiveBehavior": "fill",
-    "originalTopRow": 68,
+    "originalTopRow": 69,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 72,
+    "originalBottomRow": 73,
     "fontSize": "0.875rem",
     "minDynamicHeight": 4
 }
