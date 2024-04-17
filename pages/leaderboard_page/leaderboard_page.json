@@ -25,18 +25,7 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "leaderboard_page_leader_board",
-              "name": "leader_board",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
+        "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "leaderboard_page",
