@@ -13,10 +13,6 @@
       "isDefault": false
     },
     {
-      "id": "question_page",
-      "isDefault": false
-    },
-    {
       "id": "home_page",
       "isDefault": true
     },
