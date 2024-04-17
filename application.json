@@ -21,10 +21,6 @@
       "isDefault": true
     },
     {
-      "id": "user_page",
-      "isDefault": false
-    },
-    {
       "id": "leaderboard_page",
       "isDefault": false
     },
