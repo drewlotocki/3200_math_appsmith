@@ -3,7 +3,7 @@
     "isCompact": false,
     "boxShadow": "none",
     "mobileBottomRow": 8,
-    "widgetName": "MenuButton1",
+    "widgetName": "MenuButton",
     "displayName": "Menu button",
     "iconSVG": "/static/media/icon.631848e88e7a3db05f6015f22835e81b.svg",
     "topRow": 2,
@@ -28,7 +28,7 @@
         "onClick": "{{navigateTo('home_page', {}, 'SAME_WINDOW');}}",
         "widgetId": "",
         "index": 0,
-        "label": "home_page",
+        "label": "Home Page",
         "id": "menuItem1",
         "isVisible": true,
         "isDisabled": false
