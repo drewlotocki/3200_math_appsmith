@@ -28,24 +28,19 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "ProblemSelect-Work_GetQuestionsAllorClassroom",
+              "name": "GetQuestionsAllorClassroom",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "ProblemSelect-Work_GetStudentEmails",
               "name": "GetStudentEmails",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "ProblemSelect-Work_GetQuestionsAllorClassroom",
-              "name": "GetQuestionsAllorClassroom",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.ClassroomQuery",
-                "Emails.selectedRow.email"
-              ],
               "timeoutInMillisecond": 10000
             }
           ],
