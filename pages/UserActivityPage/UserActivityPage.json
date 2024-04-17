@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "leaderboard_page",
-    "slug": "leaderboard-page",
+    "name": "UserActivityPage",
+    "slug": "useractivitypage",
     "layouts": [
       {
         "viewMode": false,
@@ -13,14 +13,14 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 410,
+          "bottomRow": 560,
           "containerStyle": "none",
-          "snapRows": 69,
+          "snapRows": 55,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 89,
-          "minHeight": 710,
+          "minHeight": 570,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -28,18 +28,30 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "leaderboard_page_leader_board",
-              "name": "leader_board",
+              "id": "UserActivityPage_GetStudentParentEmails",
+              "name": "GetStudentParentEmails",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "UserActivityPage_GetStudentProgress",
+              "name": "GetStudentProgress",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "Table1.selectedRow.StudentEmail"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "leaderboard_page",
+        "id": "UserActivityPage",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -50,5 +62,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "661972984418b75e41bd58ad_661972984418b75e41bd58b3"
+  "gitSyncId": "661fe2c52a37ee7ddb6badae_661fe2dc2a37ee7ddb6bade3"
 }

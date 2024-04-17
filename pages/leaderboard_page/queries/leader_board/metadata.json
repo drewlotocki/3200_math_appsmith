@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "class_ids",
+    "name": "leader_board",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/c/classes"
+        "url": "Web:4000/l/leaderboard"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "assignment_page",
+    "pageId": "leaderboard_page",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -48,9 +48,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-09T19:04:11Z"
+    "createdAt": "2024-04-17T01:12:18Z"
   },
-  "id": "assignment_page_class_ids",
+  "id": "leaderboard_page_leader_board",
   "deleted": false,
-  "gitSyncId": "661972984418b75e41bd58ad_661972984418b75e41bd58c4"
+  "gitSyncId": "661f11f7e2108e2732d2cc3f_661f21f2c5ef4c26d0734eaa"
 }

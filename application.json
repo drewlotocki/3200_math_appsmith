@@ -21,10 +21,6 @@
       "isDefault": true
     },
     {
-      "id": "user_page",
-      "isDefault": false
-    },
-    {
       "id": "leaderboard_page",
       "isDefault": false
     },
@@ -42,6 +38,14 @@
     },
     {
       "id": "siteAdmin_student_page",
+      "isDefault": false
+    },
+    {
+      "id": "UserActivityPage",
+      "isDefault": false
+    },
+    {
+      "id": "ProblemSelect-Work",
       "isDefault": false
     }
   ],
