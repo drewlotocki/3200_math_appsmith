@@ -1,0 +1,6 @@
+{
+	"email": {{Emails.selectedRow.email}},
+	"assignedQuestionId": {{Questions.selectedRow.assignedQuestionId}},
+	"questionId": {{Questions.selectedRow.questionId}},
+	"question_text": {{Questions.selectedRow.question_text}}
+}
