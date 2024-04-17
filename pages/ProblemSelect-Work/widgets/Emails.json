@@ -13,8 +13,8 @@
         {"key": "borderRadius"},
         {"key": "boxShadow"},
         {"key": "tableData"},
-        {"key": "primaryColumns.FirstName.computedValue"},
-        {"key": "primaryColumns.email.computedValue"}
+        {"key": "primaryColumns.ParentEmail.computedValue"},
+        {"key": "primaryColumns.StudentEmail.computedValue"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 0,
@@ -56,15 +56,15 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1713366352272,
+    "columnUpdatedAt": 1713371764749,
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
     "mobileBottomRow": 31,
     "widgetName": "Emails",
     "defaultPageSize": 0,
     "columnOrder": [
-        "FirstName",
-        "email"
+        "ParentEmail",
+        "StudentEmail"
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
@@ -77,14 +77,14 @@
     "dynamicTriggerPathList": [{"key": "onRowSelected"}],
     "borderWidth": "1",
     "primaryColumns": {
-        "FirstName": {
-            "computedValue": "{{Emails.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"FirstName\"]))}}",
+        "ParentEmail": {
+            "computedValue": "{{Emails.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"ParentEmail\"]))}}",
             "isEditable": false,
             "notation": "standard",
-            "alias": "FirstName",
+            "alias": "ParentEmail",
             "enableSort": true,
             "isSaveVisible": true,
-            "id": "FirstName",
+            "id": "ParentEmail",
             "isDisabled": false,
             "allowSameOptionsInNewRow": true,
             "validation": {},
@@ -95,7 +95,7 @@
             "index": 0,
             "isDiscardVisible": true,
             "isVisible": true,
-            "label": "FirstName",
+            "label": "ParentEmail",
             "fontStyle": "",
             "textColor": "",
             "columnType": "text",
@@ -106,19 +106,19 @@
             "width": 150,
             "enableFilter": true,
             "sticky": "",
-            "originalId": "FirstName",
+            "originalId": "ParentEmail",
             "currencyCode": "USD",
             "cellBackground": "",
             "verticalAlignment": "CENTER"
         },
-        "email": {
-            "computedValue": "{{Emails.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"email\"]))}}",
+        "StudentEmail": {
+            "computedValue": "{{Emails.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"StudentEmail\"]))}}",
             "isEditable": false,
             "notation": "standard",
-            "alias": "email",
+            "alias": "StudentEmail",
             "enableSort": true,
             "isSaveVisible": true,
-            "id": "email",
+            "id": "StudentEmail",
             "isDisabled": false,
             "allowSameOptionsInNewRow": true,
             "validation": {},
@@ -129,7 +129,7 @@
             "index": 1,
             "isDiscardVisible": true,
             "isVisible": true,
-            "label": "email",
+            "label": "StudentEmail",
             "fontStyle": "",
             "textColor": "",
             "columnType": "text",
@@ -140,7 +140,7 @@
             "width": 150,
             "enableFilter": true,
             "sticky": "",
-            "originalId": "email",
+            "originalId": "StudentEmail",
             "currencyCode": "USD",
             "cellBackground": "",
             "verticalAlignment": "CENTER"
