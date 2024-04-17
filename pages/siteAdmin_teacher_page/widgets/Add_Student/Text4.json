@@ -26,7 +26,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Add Student",
+    "text": "Add Teacher",
     "key": "soe81w6ugv",
     "isDeprecated": false,
     "rightColumn": 43,
