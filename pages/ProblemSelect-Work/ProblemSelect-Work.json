@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1390,
+          "bottomRow": 800,
           "containerStyle": "none",
           "snapRows": 55,
           "parentRowSpace": 1,
@@ -28,8 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "ProblemSelect-Work_GetStudentEmails",
-              "name": "GetStudentEmails",
+              "id": "ProblemSelect-Work_get_student_emails",
+              "name": "get_student_emails",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
@@ -38,8 +38,8 @@
           ],
           [
             {
-              "id": "ProblemSelect-Work_GetQuestionsAllorClassroom",
-              "name": "GetQuestionsAllorClassroom",
+              "id": "ProblemSelect-Work_get_questions_all_or_class",
+              "name": "get_questions_all_or_class",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
@@ -51,8 +51,8 @@
           ],
           [
             {
-              "id": "ProblemSelect-Work_PostInputAnswer",
-              "name": "PostInputAnswer",
+              "id": "ProblemSelect-Work_post_input_answer",
+              "name": "post_input_answer",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
@@ -60,7 +60,7 @@
                 "Questions.selectedRow.question_text",
                 "Questions.selectedRow.assignedQuestionId",
                 "Questions.selectedRow.questionId",
-                "Emails.selectedRow.StudentEmail"
+                "Emails.selectedRow.email"
               ],
               "timeoutInMillisecond": 10000
             }

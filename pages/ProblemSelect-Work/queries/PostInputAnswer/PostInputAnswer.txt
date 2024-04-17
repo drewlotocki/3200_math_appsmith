@@ -1,6 +1,0 @@
-{
-	"email": {{Emails.selectedRow.StudentEmail}},
-	"assignedQuestionId": {{Questions.selectedRow.assignedQuestionId}},
-	"questionId": {{Questions.selectedRow.questionId}},
-	"question_text": {{Questions.selectedRow.question_text}}
-}

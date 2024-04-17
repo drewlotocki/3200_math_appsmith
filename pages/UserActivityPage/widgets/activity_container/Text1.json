@@ -30,7 +30,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Selected User\n{{Table1.selectedRow.StudentEmail}}",
+    "text": "Selected User\n{{st_emails_table.selectedRow.StudentEmail}}",
     "key": "yummq585om",
     "isDeprecated": false,
     "rightColumn": 40,

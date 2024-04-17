@@ -12,10 +12,10 @@
         {"key": "accentColor"},
         {"key": "borderRadius"},
         {"key": "boxShadow"},
-        {"key": "tableData"},
         {"key": "primaryColumns.questionId.computedValue"},
         {"key": "primaryColumns.question_text.computedValue"},
-        {"key": "primaryColumns.subject.computedValue"}
+        {"key": "primaryColumns.subject.computedValue"},
+        {"key": "tableData"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 1,
@@ -184,7 +184,7 @@
     "textSize": "0.875rem",
     "widgetId": "jet10r4w1y",
     "minWidth": 450,
-    "tableData": "{{GetQuestionsAllorClassroom.data}}",
+    "tableData": "{{get_questions_all_or_class.data}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "250mzac2b6",

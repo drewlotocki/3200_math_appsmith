@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 21,
     "widgetName": "AllQs",
-    "onClick": "{{storeValue('ClassroomQuery', 'ALLQUESTIONS');\nGetQuestionsAllorClassroom.run()}}",
+    "onClick": "{{storeValue('ClassroomQuery', 'ALLQUESTIONS');\nget_questions_all_or_class.run()}}",
     "buttonColor": "#1d4ed8",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
