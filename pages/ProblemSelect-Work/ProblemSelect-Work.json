@@ -44,7 +44,7 @@
               "pluginType": "API",
               "jsonPathKeys": [
                 "appsmith.store.ClassroomQuery",
-                "Emails.selectedRow.StudentEmail"
+                "Emails.selectedRow.email"
               ],
               "timeoutInMillisecond": 10000
             }
