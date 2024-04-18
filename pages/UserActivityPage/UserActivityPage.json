@@ -43,7 +43,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "st_emails_table.selectedRow.email"
+                "st_emails_table.selectedRow.StudentEmail"
               ],
               "timeoutInMillisecond": 10000
             }

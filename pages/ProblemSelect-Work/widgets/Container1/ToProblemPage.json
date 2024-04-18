@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 21,
     "widgetName": "ToProblemPage",
-    "onClick": "{{showModal('ProblemPage');}}",
+    "onClick": "{{showModal('ProblemPage').catch(() => {\n  showAlert('Must select a user', 'error');\n});}}",
     "buttonColor": "#b91c1c",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
