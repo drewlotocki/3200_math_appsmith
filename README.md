@@ -19,3 +19,6 @@ From the home page, a user can navigate to a section that fits their persona so 
 3. Andrew Lotocki
 4. Rishi Agarwal
 5. Reagan White
+
+### Video Link:
+https://drive.google.com/file/d/1rguliwQ2oxgRViJGBrIC6s4vEQj6JO7m/view
