@@ -10,7 +10,6 @@ From the home page, a user can navigate to a section that fits their persona so 
 2. Navigate to `http://localhost:8080/applications`
 3. Upload the repo under create new then import
 4. Go to the website and explore
-5. Rarely sql will stop execution on vs code at trigger statements (in this case drop the database and run the whole sql file in data grip)
 
 
 ## Group Members:
